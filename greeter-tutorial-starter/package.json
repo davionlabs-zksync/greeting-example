@@ -1,7 +1,7 @@
 {
   "name": "greeter-front-end",
   "version": "0.1.0",
-  "homepage": "https://davionlabs-zksync.github.io/greeting-example",
+  "homepage": "https://davionlabs-zksync.github.io/greeting-example/greeter-tutorial-starter",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
