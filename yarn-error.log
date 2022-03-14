@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add -D typescript ts-node ethers zksync-web3hardhat @matterlabs/hardhat-zksync-solc @matterlabs/hardhat-zksync-deploy
+
+PATH: 
+  /usr/local/bin:/usr/local/sbin:/Users/duke/.nvm/versions/node/v6.10.3/bin:/Users/duke/.cargo/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion1.app/Contents/Public:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/usr/local/sbin:/Users/duke/.nvm/versions/node/v6.10.3/bin:/Users/duke/.cargo/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:GOLANG_ROOT_DIR/.gocodep_roject/bin:/Users/duke/go/bin:$/Users/duke/btc/bitcoin-0.16.2/bin:/usr/local/Cellar/node/10.11.0/bin/:/usr/local/mysql/bin:GOLANG_ROOT_DIR/.gocodep_roject/bin:/Users/duke/go/bin:$/Users/duke/btc/bitcoin-0.16.2/bin:/usr/local/go/bin:/usr/local/Cellar/node/10.11.0/bin/:/usr/local/mysql/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/zksync-web3hardhat: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:140883:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141855:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1331:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "greeter-example",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
